@@ -18,7 +18,7 @@ mongoose.Promise = global.Promise;
 
 if(process.env.NODE_ENV == 'production'){
   // Gotten using `heroku config | grep MONGODB_URI` command in Command Line
-  mongoose.connect('mongodb://heroku_fh7smq38:dgrhjablf5u448tf701pv6mfis@ds243295.mlab.com:43295/heroku_fh7smq38');
+  mongoose.connect('mongodb://heroku_n87vsq8x:kisj52j6m9d4r34lvakphr682u@ds243335.mlab.com:43335/heroku_n87vsq8x');
 }
 else{
   mongoose.connect('mongodb://localhost/policeDB');
