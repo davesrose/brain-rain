@@ -21,7 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.12.1"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -32,7 +32,9 @@
     "jquery": "^3.2.1",
     "json2csv": "^3.11.5",
     "mongoose": "^4.11.7",
+    "nodemon": "^1.12.1",
     "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }
