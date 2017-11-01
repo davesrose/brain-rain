@@ -28,6 +28,8 @@
     "jquery": "^3.2.1",
     "json2csv": "^3.11.5",
     "mongoose": "^4.11.7",
+    "react": "^16.0.0",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.1.2"
   }
 }
