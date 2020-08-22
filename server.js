@@ -21,7 +21,7 @@ if(process.env.NODE_ENV == 'production'){
   mongoose.connect('mongodb://heroku_n87vsq8x:kisj52j6m9d4r34lvakphr682u@ds243335.mlab.com:43335/heroku_n87vsq8x');
 }
 else{
-  mongoose.connect('mongodb://localhost/policeDB');
+  mongoose.createConnection('mongodb://localhost/policeDB');
 }
 // Start the API server
 app.listen(PORT, function() {
