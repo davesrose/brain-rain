@@ -28,7 +28,7 @@ mongoose.Promise = global.Promise;
 
 if(process.env.NODE_ENV == 'production'){
   // Gotten using `heroku config | grep MONGODB_URI` command in Command Line
-  mongoose.connect('mongodb://heroku_n87vsq8x:kisj52j6m9d4r34lvakphr682u@ds243335.mlab.com:43335/heroku_n87vsq8x', options);
+  mongoose.connect('mongodb://heroku_n87vsq8x:kisj52j6m9d4r34lvakphr682u@ds243335.mlab.com:43335/heroku_n87vsq8xmongodb+srv://heroku_n87vsq8x:rLMzmYNzb9zMRJPL@cluster-n87vsq8x.v7t0k.mongodb.net/heroku_n87vsq8x?retryWrites=true&w=majority', options);
 }
 else{
   mongoose.connect('mongodb://localhost/policeDB', options).catch(error => handleError(error));
