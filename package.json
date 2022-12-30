@@ -28,7 +28,7 @@
     "express": "^4.15.4",
     "file-system": "^2.2.2",
     "jquery": "^3.2.1",
-    "json2csv": "^3.11.5",
+    "json2csv": "^5.0.7",
     "mongoose": "^4.11.7",
     "react": "^16.13.1",
     "react-dom": "^16.0.0",
